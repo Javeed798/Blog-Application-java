@@ -6,5 +6,5 @@ import com.springboot.blog.payload.RegisterDto;
 public interface AuthService {
     String login(LoginDto loginDto);
 
-    String Register(RegisterDto registerDto);
+    String register(RegisterDto registerDto);
 }
